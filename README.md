@@ -8,7 +8,11 @@ Insights and recommendations are provided on the following key areas:
 - **Purchasing Performance Analysis:** include purchase order tracking and price tracking over time to detect anomalies. Regularly analyze spending across products, categories, and regions to optimize budgeting.
 - **Supllier Performance Management:** assess supplier performance based on key metrics like on-time delivery rate, lead time, and product quality to minimize procurement risks.
 
-Tools used: SQL, Excel, SSIS, SSAS, PowerBI
+Tools used: Excel, SSIS, SSAS, PowerBI.
+
+An interactive PowerBI Dashboard can be seen [here](https://app.powerbi.com/groups/me/reports/789abcc0-9340-457b-8a93-1929eb878282?ctid=07acb355-56bc-489b-b98c-8fea440460e8&pbi_source=linkShare).
+
+
 # Data structure
 AdventureWorks's database structure includes different function from Sales, Purchasing, Manufacturing, Human Resources etc. With nearly 20.000 customers, over 70.000 orders and 500 products there is enough data for further analysis.
 
@@ -52,6 +56,18 @@ By looking further into each category,  we can assess the stock status of the pr
 2. **Purchasing Performance Analysis**:
 
 The Purchasing Performance Dashboard is designed to provide an overview of the purchasing efficiency. Its primary goal is to help track and assess key metrics related to procurement, spending, and operational performance, including factors such as total purchase orders, purchase spending, freight costs, return rates, and product availability. These metrics support decision-making to optimize purchasing processes, reduce costs, and improve overall business performance.
+
+<img width="1455" height="836" alt="image" src="https://github.com/user-attachments/assets/e55b9820-bf82-490a-a490-09f089851770" />
+
+**Insights**: 
+- The PO Completed Rate is 92.36%, showing most purchased materials meet production needs. However, a 3.12% Return Rate indicates defective products, highlighting the need for improved supplier quality evaluations.
+- The four materials (HL Crankarm, ML Mountain Pedal, ML Road Pedal, and Front Brakes) account for over 70% of the budget, highlighting that a small number of materials have a significant impact on the overall production supply chain efficiency.
+- The company primarily uses CARGO TRANSPORT 5, despite its high cost, handles the most orders. OVERNIGHT J-FAST is expensive but used infrequently; it should be reserved for urgent shipments. XRQ – TRUCK GROUND is cost-effective but underutilized, suggesting opportunities for optimization. OVERSEAS – DELUXE is high-cost and less frequent, suited for special care or fast deliveries.
+
+**Recommendations:**
+- Focus on high-spending materials by prioritizing negotiation with suppliers for materials accounting for the majority of spending (e.g., HL Crankarm, ML Mountain Pedal, ML Road Pedal) to secure better unit prices.
+- Limit the use of OVERNIGHT J-FAST to truly urgent orders to minimize unnecessary high costs. Consider planning ahead for non-urgent deliveries to reduce reliance on this expensive shipping method.
+- Monitor and analyze freight costs closely, particularly for high-cost shipping methods like CARGO TRANSPORT 5, to identify potential savings.
 
 
 
