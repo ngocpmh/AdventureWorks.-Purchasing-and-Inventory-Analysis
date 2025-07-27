@@ -30,6 +30,11 @@ The project used Galaxy Schema to support multidimensional analysis requirements
 - **Fact Tables**: Fact InventoryManagement, Fact Purchasing.
 - **Dimension Tables**: DimProduct, DimGeography, DimTime, DimShipMethod, DimProductVendor, DimVendor, DimLocation.
 
+  ETL Process in SSIS below:
+  
+ <img width="1365" height="796" alt="image" src="https://github.com/user-attachments/assets/fbcde83c-034f-4711-80a2-3b7d56297899" />
+ 
+
 # Executive Summary 
 **Overview of Findings**
 1. **Inventory Management**:
